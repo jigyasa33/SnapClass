@@ -18,4 +18,4 @@ def create_subject_dialog(teacher_id):
             except Exception as e:
                 st.error(f"Error:{str(e)}")
         else:
-            st.warning:("Please fill all the fields")   
+            st.warning("Please fill all the fields")   
